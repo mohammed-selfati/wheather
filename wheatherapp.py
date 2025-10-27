@@ -13,7 +13,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-API_KEY = "0000ca541b97ce426a65cbadb67b20e8"  # Replace with your OpenWeatherMap API key
+API_KEY = "bd86f21f4734ed3d7e5aad81c3720031"  # Replace with your OpenWeatherMap API key
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
 # -----------------------------
@@ -99,4 +99,5 @@ if city:
         st.markdown("</div>", unsafe_allow_html=True)
     else:
         st.error("City not found or API error.")
+
 
